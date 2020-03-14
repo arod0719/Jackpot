@@ -1,0 +1,64 @@
+.header {
+    padding: 7%;
+    text-align: center;
+    background: #000000;
+    color: black;
+    font-size: 200%;
+    height:210px;
+    background-image: url("../images/bomb.png");
+    background-size: 97%, cover;
+    background-repeat: no-repeat;
+    background-position: 250%;
+}
+
+.button {
+    display: flex;
+    padding: 1% 1%;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #E32F0B;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button:hover {
+    background-color: #CE2A0A;
+}
+
+.button:active {
+    background-color: #58BD2D;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    color: #2A2A2A;
+}
+
+.textdiv {
+    position: absolute;
+    left: 30%;
+    text-align: center;
+    background-color: #58BD2D;
+    width: 35%;
+    padding: 2%;
+    border: 25px solid red;
+    float: left;
+}
+
+input {
+    border: 0px none;
+    font-size: 20px;
+    background-color:transparent;
+    color: #282C2F;
+}
+
+
+.ethdiv {
+    font-size: 20px;
+    text-align: center;
+}

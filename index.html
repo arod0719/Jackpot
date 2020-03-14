@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Jackpot - An Ethereum Smart-Contract Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./styles/jackpot.css">
+</head>
+<div class="header">
+    <h1 id="timer"></h1>
+</div>
+
+<div>
+    <ul>
+        <button class="button" id="button1">Press the Button! (0.1 ETH)</button>
+        <br>
+        <button class="button" id="button2">Claim Reward (Winners only!)</button>
+        <br>
+        <br>
+        <div class="textdiv">
+            <label for="currentWinner"><strong>Current Winner Address:</strong></label>
+            <input type="text" id="currentwinner" size="50" name="Current Winner" readonly>
+            <br>
+            <br>
+            <label for="currentPrize"><strong>Current Prize Pool:</strong></label>
+            <input class="ethdiv" id="currentPrize" size="50" name="Current Prize" readonly>
+        </div>
+    </ul>
+</div>
+<script src="./scripts/jackpot.js"></script>
+
+<body onload="init()" style="background-color:#282C2F;">
+    <p id="timer"></p>
+</body>
+
+</html>
